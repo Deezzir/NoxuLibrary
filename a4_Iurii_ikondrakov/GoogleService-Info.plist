@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>223537965782-o8p887bkj6328k2l394a875pgi0of8rk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.223537965782-o8p887bkj6328k2l394a875pgi0of8rk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCHwsUHhF6ijN_hZleVWzS8C3EM9oTGx-k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>223537965782</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ikondrakov.a4-Iurii-ikondrakov</string>
+	<key>PROJECT_ID</key>
+	<string>noxulibrary</string>
+	<key>STORAGE_BUCKET</key>
+	<string>noxulibrary.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:223537965782:ios:051b47ed86f49fdad0f777</string>
+</dict>
+</plist>

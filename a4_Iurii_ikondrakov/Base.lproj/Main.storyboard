@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v5w-cY-9o5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login-->
+        <scene sceneID="yaa-vA-ASz">
+            <objects>
+                <viewController title="Login" id="eyi-WJ-dGW" customClass="LoginViewController" customModule="a4_Iurii_ikondrakov" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0QY-B3-HjM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G7u-6F-gT3">
+                                <rect key="frame" x="20" y="88" width="374" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="noxuLibrary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ih5-wD-43x">
+                                        <rect key="frame" x="9" y="18" width="356" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
+                                        <color key="textColor" systemColor="systemIndigoColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome back!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="our-IZ-SkJ">
+                                        <rect key="frame" x="9" y="67" width="356" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                        <color key="textColor" systemColor="systemIndigoColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="H7C-5W-Ddz">
+                                <rect key="frame" x="20" y="215" width="374" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" axis="vertical" id="e2J-Tu-woF">
+                                        <rect key="frame" x="9" y="278" width="358" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="JrT-QS-yrc">
+                                                <rect key="frame" x="0.0" y="0.0" width="358" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Login">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="loginPressed:" destination="eyi-WJ-dGW" eventType="touchUpInside" id="AR0-KC-acz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" id="Ohh-WE-FJg">
+                                        <rect key="frame" x="8" y="21" width="358" height="205"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" id="8h7-ya-xp3">
+                                                <rect key="frame" x="0.0" y="0.0" width="358" height="98"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="center" spacing="5" id="Pm1-Mz-3ph">
+                                                        <rect key="frame" x="0.0" y="0.0" width="358" height="70.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Cfh-gL-cBr">
+                                                                <rect key="frame" x="8" y="6" width="27.5" height="58.5"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                                                <accessibility key="accessibilityConfiguration">
+                                                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                                                </accessibility>
+                                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                                <imageReference key="image" image="person.fill" catalog="system" symbolScale="large"/>
+                                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" scale="default"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+                                                            <textField opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Username" adjustsFontSizeToFit="NO" minimumFontSize="20" clearButtonMode="always" id="Crl-Dy-Yw5">
+                                                                <rect key="frame" x="40.5" y="8" width="309.5" height="54.5"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" textContentType="username"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </textField>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="PLG-O9-hEO" userLabel="UsernameError">
+                                                        <rect key="frame" x="0.0" y="70.5" width="358" height="27"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" systemColor="systemRedColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" id="jif-2M-sXN">
+                                                <rect key="frame" x="0.0" y="108" width="358" height="97"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <stackView autoresizesSubviews="NO" opaque="NO" contentMode="center" spacing="5" id="Sg0-oM-PXY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="358" height="69.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="brH-JK-Vbc">
+                                                                <rect key="frame" x="8" y="5" width="28" height="59"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                                <imageReference key="image" image="lock.fill" catalog="system" symbolScale="large"/>
+                                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" scale="default"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" minimumFontSize="20" id="Slz-Jb-YHA">
+                                                                <rect key="frame" x="41" y="8" width="309" height="53.5"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </textField>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="Ht1-oD-UAl" userLabel="PasswordError">
+                                                        <rect key="frame" x="0.0" y="69.5" width="358" height="28"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" systemColor="systemRedColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zuj-3f-BMS" userLabel="Error">
+                                        <rect key="frame" x="8" y="-3" width="358" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mOJ-uf-3Bd"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="W6H-0o-hrF"/>
+                    <connections>
+                        <outlet property="errorLabel" destination="Zuj-3f-BMS" id="DNR-35-TCD"/>
+                        <outlet property="passwordErrorLabel" destination="Ht1-oD-UAl" id="Hyb-mW-XQb"/>
+                        <outlet property="passwordField" destination="Slz-Jb-YHA" id="y6P-rq-xQe"/>
+                        <outlet property="usernameErrorLabel" destination="PLG-O9-hEO" id="BkZ-la-VAZ"/>
+                        <outlet property="usernameField" destination="Crl-Dy-Yw5" id="BOd-xQ-ZxN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGU-98-u36" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-584.05797101449275" y="214.95535714285714"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="Vhm-JW-cms">
+            <objects>
+                <viewController storyboardIdentifier="library" title="Library" id="E8t-1L-aH0" customClass="LibraryViewController" customModule="a4_Iurii_ikondrakov" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HUR-Gb-2x6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yVd-MU-7i4">
+                                <rect key="frame" x="20" y="117" width="374" height="745"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" id="EtZ-dF-avA">
+                                        <rect key="frame" x="8" y="9" width="358" height="729"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="P7z-y2-2AS" detailTextLabel="k8G-Ac-6AO" imageView="bRr-hj-SnB" rowHeight="70" style="IBUITableViewCellStyleSubtitle" id="XAx-on-bI1" userLabel="Cell">
+                                                <rect key="frame" x="0.0" y="44.5" width="358" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="XAx-on-bI1" id="j0O-DG-kRY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P7z-y2-2AS">
+                                                            <rect key="frame" x="58.25" y="13" width="38.5" height="21.5"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k8G-Ac-6AO">
+                                                            <rect key="frame" x="58.25" y="37.5" width="53" height="18"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bRr-hj-SnB">
+                                                            <rect key="frame" x="17.25" y="22" width="26" height="26"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <imageReference key="image" image="book.closed.circle" catalog="system" symbolScale="large"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </tableViewCellContentView>
+                                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <sections/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFe-sc-1Ta">
+                                <rect key="frame" x="20" y="88" width="374" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="n91-Q4-4TA"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    </view>
+                    <connections>
+                        <outlet property="TableView" destination="EtZ-dF-avA" id="uFA-Rd-Zb6"/>
+                        <outlet property="errorLabel" destination="uFe-sc-1Ta" id="LZk-9t-3G0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mJC-5g-caG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="289.85507246376812" y="214.95535714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="reF-Sw-BcF">
+            <objects>
+                <navigationController id="v5w-cY-9o5" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bjO-hd-O1S">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eyi-WJ-dGW" kind="relationship" relationship="rootViewController" id="Suh-2U-dmR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TIr-PR-VHh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1431" y="215"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="book.closed.circle" catalog="system" width="128" height="121"/>
+        <image name="lock.fill" catalog="system" width="128" height="128"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
